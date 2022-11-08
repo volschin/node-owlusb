@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "cp2102": "simonarnell/cp2102.git",
-    "mathjs": "^9.0.0"
+    "mathjs": "^11.3.3"
   },
   "repository": "github:simonarnell/node-owlusb",
   "keywords": [
