@@ -1,6 +1,6 @@
 FROM node:lts-alpine
 
-RUN apk add --no-cache git python3 libusb-dev libusb make gcc musl-dev linux-headers libudev-zero-dev
+RUN apk add --no-cache git python3 libusb-dev libusb make gcc g++ musl-dev linux-headers libudev-zero-dev
 RUN npm install --only=production -g node-owlusb@0.1.3
 #COPY healthcheck.js /healthcheck.js
 #VOLUME [ "/alexa-fhem" ]
