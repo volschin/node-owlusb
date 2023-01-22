@@ -6,7 +6,7 @@
   "author": "Simon Arnell",
   "license": "MIT",
   "dependencies": {
-    "cp2102": "simonarnell/cp2102.git",
+    "cp2102": "tidepool-org/cp2102.git",
     "mathjs": "^11.4.0"
   },
   "repository": "github:simonarnell/node-owlusb",
